@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- 
+        http://startbootstrap.com/template-overviews/thumbnail-gallery/
+    -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thumbnail Gallery - Start Bootstrap Template</title>
+
+
+    <script type="text/javascript" src="js/cordova-exif.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .thumbnail,img{
+            object-fit: none; /* Do not scale the image */
+          object-position: center; /* Center the image within the element */
+          height: 140px!important;
+          width: 140px;
+          border:0;
+          object-fit: contain; /* to make the full image appear*/
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.1.4.js">
+
+    </script>
+    <!--
+    <script>
+        $( document ).ready(function() {
+            $("img").attr("height","40px");
+            $("img").attr("style","height:40 vmin;");
+             
+        });
+    </script>
+    -->
+    <script>
+        $('*').click(function() {
+            console.log($(this));
+            //alert($(this).children('img').attr('src'));
+        });
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <!--
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    -->
+    <!-- Page Content -->
+    <div class="container" >
+
+        <a href="maps.html">LIEN</a>
+
+        <div class="row">
+
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/600x1700" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="img/20151019_192329.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="img/20151019_201158.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 thumb">
+                <a class="thumbnail" href="#">
+                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                </a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
